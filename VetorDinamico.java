@@ -54,4 +54,20 @@ public class VetorDinamico {
         return -1;
     }
 
+    // PEGA A OCUPACAO DO VETOR (NUMERO DE ELEMENTOS)
+    public int getOcupacao() {
+        return ocupacao;
+    }
+
+    // RETORNA O ULTIMO ELEMENTO
+    public Processo getUltimo() {
+        if (ocupacao == 0) return null;
+        return v[ocupacao - 1];
+    }
+
+    // METODO UTILIZADO PARA IMPRIMIR NA PILHA PROCESSO
+    public Processo get(int i) {
+        return v[i];
+    }
+
 }

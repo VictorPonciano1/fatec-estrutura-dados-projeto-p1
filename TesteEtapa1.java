@@ -1,3 +1,5 @@
+/* CLASSE UTILIZADA PARA O TESTE DA ETAPA 1 */
+
 public class TesteEtapa1 {
     public static void main(String[] args) {
 
