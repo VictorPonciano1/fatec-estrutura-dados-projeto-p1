@@ -49,9 +49,11 @@ As etapas foram 3:
 A Etapa pedia o teste: "Crie um programa de teste que demonstre: inserção em massa até forçar ao menos dois redimensionamentos crescentes; remoção em massa até forçar ao menos um redimensionamento decrescente; impressão da capacidade atual do array a cada operação."
 
 📌 Inserção em massa (forçando redimensionamento):
+
 ![Log Adiciona Etapa 1](Fotos-Templates/LogAdiciona-Etapa1.png)
 
 📌 Remoção em massa (forçando redução):
+
 ![Log Remove Etapa 1](Fotos-Templates/LogRemove-Etapa1.png)
 
 > 🎨 Curiosidade: caso haja curiosidade de saber o motivo de o terminal estar estilizado, utilizo o tema "Oh My Posh" no Windows Terminal.
@@ -73,28 +75,36 @@ A Etapa pedia o teste: "Crie um programa de teste que demonstre: inserção em m
 A Etapa 2 pedia o teste: "Crie um menu de console que permita testar todas as operações de forma interativa, incluindo cenários de erro (tentar atender com pilha vazia, tentar desfazer sem histórico)".
 
 📌 Funcionamento do menu geral:
+
 ![Teste 1 Etapa 2](Fotos-Templates/Teste1-Etapa2.png)
 
 📌 Abertura de Processo:
+
 ![Teste 2 Etapa 2](Fotos-Templates/Teste2-Etapa2.png)
 
 📌 Listando pendentes e tentando desfazer um processo sem atendê-lo primeiro:
+
 ![Teste 3 Etapa 2](Fotos-Templates/Teste3-Etapa2.png)
 
 📌 Listagem do histórico depois de processos atendidos e conferência de processos pendentes:
+
 ![Teste 4 Etapa 2](Fotos-Templates/Teste4-Etapa2.png)
 
 📌 Abertura de novo projeto
+
 ![Teste 5 Etapa 2](Fotos-Templates/Teste5-Etapa2.png)
 
 📌 Listagem de processos, atendimentos e desfazendo processo:
+
 ![Teste 6 Etapa 2](Fotos-Templates/Teste6-Etapa2.png)
 
 📌 Tentando desfazer processo sem que hajam processos para serem desfeitos:
+
 ![Teste 7 Etapa 2](Fotos-Templates/Teste7-Etapa2.png)
 
 
 📌 Tentando atender um processo sem que hajam processos a serem atendidos:
+
 ![Teste 8 Etapa 2](Fotos-Templates/Teste8-Etapa2.png)
 
 📌 Nesta etapa, os processos já podiam ser atendidos, porém **ainda sem priorização**.
@@ -116,8 +126,10 @@ A Etapa 2 pedia o teste: "Crie um menu de console que permita testar todas as op
 
 Esta etapa continha o teste final do projeto que pedia: "Refatore a classe CentralAtendimento para usar PilhaPrioridade no lugar de PilhaProcesso. O menu de console deve permanecer com as mesmas opções; apenas a ordem de atendimento muda. Demonstre, com testes documentados, que processos urgentes são atendidos antes de processos normais ou de baixa prioridade, mesmo que tenham sido abertos depois. "
 
-📌 Como é possível ver, os processos estão sendo listados por prioridade mesmo com datas de aberturas diferentes.
+📌 Como é possível ver, os processos estão sendo listados por prioridade mesmo com datas de aberturas diferentes:
+
 ![Teste 1 Etapa 3](Fotos-Templates/Teste1Etapa3.png)
 
 📌 Processos agora são atendidos corretamente de acordo com seu nível de prioridade, independentemente do serviço e data e hora cadastrados:
+
 ![Teste 2 Etapa 3](Fotos-Templates/Teste2Etapa3.png)
