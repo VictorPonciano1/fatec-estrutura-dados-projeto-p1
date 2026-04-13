@@ -35,9 +35,13 @@ public class PilhaProcesso {
     }
    }
 
-   //
+   // VERIFICACAO CASO A PILHA ESTEJA VAZIA - PILHA VAZIA != VETOR VAZIO
    public boolean estaVazia() {
     return vetor.getOcupacao() == 0;
    }
 
+   // TAMANHO - SERA USADO NA PILHA PRIORIDADE - PEGA O TAMANHO COM BASE NA OCUPACAO
+   public int tamanho() {
+    return vetor.getOcupacao();
+   }
 }

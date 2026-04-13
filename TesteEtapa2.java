@@ -33,13 +33,13 @@ public class TesteEtapa2 {
                     System.out.print("\nTipo de servico: ");
                     String tipo = scanner.nextLine();
 
-                    System.out.print("\nPrioridade (1- Baixa / 2- Normal / 3- Urgente)");
+                    System.out.print("\nPrioridade (1- Baixa / 2- Normal / 3- Urgente): ");
                     int prioridade = scanner.nextInt();
                     scanner.nextLine(); // LIMPA O ENTER
 
                     Processo p = new Processo(nome, tipo, prioridade);
 
-                    System.out.print("\nData e Hora (formato: dd/MM/yyyy HH:mm): ");
+                    System.out.print("\nData e Hora (formato: dd/MM/yyyy HH:mm):  ");
                     p.setDataHora(scanner.nextLine());
 
                     central.abrirProcesso(p);
